@@ -28,7 +28,7 @@ if opcion == "Agregar Usuario":
         if nombre:
             agregar_usuario(nombre)
         else:
-            st.error("El nombre no puede estar vacío")}
+            st.error("El nombre no puede estar vacío")
 
 elif opcion == "Mostrar Usuarios"
      mostrar_usuarios()          
