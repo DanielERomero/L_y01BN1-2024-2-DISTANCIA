@@ -30,6 +30,6 @@ if opcion == "Agregar Usuario":
         else:
             st.error("El nombre no puede estar vacío")
 
-elif opcion == "Mostrar Usuarios"
+elif opcion == "Mostrar Usuarios":
      mostrar_usuarios()          
 
