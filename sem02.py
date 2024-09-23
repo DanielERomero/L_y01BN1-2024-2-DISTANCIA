@@ -4,7 +4,7 @@ import streamlit as st
 usuarios = []
 
 #Función para agragar un usuario
-def agregar_usuario(nombre)
+def agregar_usuario(nombre):
     usuarios.append(nombre)
     st.success(f"usuario {nombre} agregado.")
 
