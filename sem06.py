@@ -33,7 +33,7 @@ if st.button("Ejecutar Ejercicio 4"):
     media = sum(lista_numeros) / len(lista_numeros)
     mayores = len([num for num in lista_numeros if num > 10])
     iguales = len([num for num in lista_numeros if num == 10])
-    menores = len([num for num in lista_numero if num < 10])
+    menores = len([num for num in lista_numeros if num < 10])
 
     st.write(f"la media es: {media}")
     st.write(f"Mayores que 10: {mayores}")
