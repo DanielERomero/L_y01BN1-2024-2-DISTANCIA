@@ -14,3 +14,8 @@ st.subheader("ejercicio 2: imprimir los primeros 10 números")
 if st.button("ejecutar Ejercicio 2"):
     for i in range(1, 11):
         st.write(i)
+#Ejercicio: 3 Tabla de multiplicar
+st.subheader("ejercicio 3: Imprimir la tabla de multiplicar del numero ingresado")
+nun = st.number_input("Ingrese un número para ver su tabla de multiplicar del 1 al 12", min_value=1)
+        for i in range(1, 13)
+            st.write(f"{num} x {i}= {num * i}")
