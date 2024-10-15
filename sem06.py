@@ -25,7 +25,7 @@ if st.button("Ejecutar Ejercicio 3"):
 
 #Ejercicio 4: Calcular la media y comparar con 10
 st.subheader ("Ejercicio 4: Comparar 10 números con el valor 10")
-numeros_ej1 = st.text_input("ingresar 10 números separados por comas:", "12, 7, 15, 10, 20, 5, 10, 9, 8, 11)
+numeros_ej1 = st.text_input("ingresar 10 números separados por comas:", "12, 7, 15, 10, 20, 5, 10, 9, 8, 11")
 
 if st.button("Ejecutar Ejercicio 4"):
     #convertir la cdena de entrada a una lista de números
