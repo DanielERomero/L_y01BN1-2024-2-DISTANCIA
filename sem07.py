@@ -17,5 +17,5 @@ def mostrar_menu():
     elif seleccion == "Salir":
         st.write("¡Saliendo del menú")
             
-if _name_ == "_main_":
+if __name__ == "__main__":
     mostrar_menu()                    
