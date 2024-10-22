@@ -32,6 +32,6 @@ def verificar_automoviles():
         st.session_state.puntos_contaminantes =[]
         st.success("Datos reiniciados correctamente")
 
-    #Ejecutar a funcion
-    if __name__ == "__main__":
-        verificar_automoviles()        
+ #Ejecutar a funcion
+if __name__ == "__main__":
+    verificar_automoviles()        
