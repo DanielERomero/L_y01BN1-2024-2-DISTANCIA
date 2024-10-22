@@ -13,9 +13,9 @@ def mostrar_menu():
     if seleccion == "Archivo":
         st.write("seleccionaste: archivo")
      elif seleccion == "Editar":
-         st.write("Seleccionaste: Editar")
+        st.write("Seleccionaste: Editar")
     elif seleccion == "Salir":
-         st.write("¡Saliendo del menú")
+        st.write("¡Saliendo del menú")
             
 if _name_ == "_main_":
     mostrar_menu()                    
