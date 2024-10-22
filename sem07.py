@@ -4,16 +4,18 @@ def mostrar_menu():
     st.title("Ejemplo de Menú")
     st.write("Selecciona una opcion del menú")
 
-    menu = ["archivo","Editar","Ver","Salir"]
+    menu = ["Archivo","Editar","Ver","Salir"]
     seleccion = ""
 
     
     seleccion = st.radio("Menú", menu)
 
     if seleccion == "Archivo":
-        st.write("seleccionaste: archivo")
+        st.write("seleccionaste: Archivo")
     elif seleccion == "Editar":
         st.write("Seleccionaste: Editar")
+    elif seleccion == "Ver":
+        st.write("Seleccionaste: Ver")    
     elif seleccion == "Salir":
         st.write("¡Saliendo del menú")
             
