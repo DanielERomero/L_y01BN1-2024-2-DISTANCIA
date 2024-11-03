@@ -30,3 +30,6 @@ if numeros:
 else:
     st.write("No se han introducido números.")
 
+#Ejecutar a funcion
+if __name__ == "__main__":
+    calcular_suma_y_media()
