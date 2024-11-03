@@ -24,6 +24,3 @@ if st.button("Calcular"):
     st.write("Perímetro de la circunferencia: {:.2f}".format(perimetro))
     st.write("Área de la circunferencia: {:.2f}".format(area))
 
-#Ejecutar a funcion
-if __name__ == "__main__":
-    calcular_perimetro()
