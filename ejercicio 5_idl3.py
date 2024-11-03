@@ -24,3 +24,6 @@ if st.button("Calcular Pagos"):
         st.write(f"Mes {mes}: S/{pago}")
 
     st.write("Total pagado después de 20 meses: S/", total_pagado)
+#Ejecutar a funcion
+if __name__ == "__main__":
+    calcular_pagos_mensuales_y_total()
