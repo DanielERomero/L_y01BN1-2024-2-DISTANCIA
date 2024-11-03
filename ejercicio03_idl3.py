@@ -1,27 +1,32 @@
 #ejercico 3: Algoritmo que pida numeros hasta que se introduzca un cero, imprimir la suma y la media de los numero introducido
 import streamlit as st
 
-# Función para pedir números y calcular la suma y la media
-def calcular_suma_y_media():
-    numeros = []  
-    st.write("Introduce números uno a uno. Escribe '0' para terminar:")
-    while True:
-        numero = st.number_input("Introduce un número:", step=1.0, key=len(numeros))
-        if numero == 0:
-            break
-        else:
-            numeros.append(numero)
+# Título de la aplicación
+st.title("Suma y Media de Números")
+
+# Inicializar la lista para almacenar los números
+numeros = []
+
+# Entrada de números
+st.write("Introduce números (introduce 0 para finalizar):")
+
+# Ciclo para solicitar números hasta que se introduzca 0
+while True:
+    numero = st.number_input("Número:", step=1, format="%d")
+    
+    if numero == 0:
+        break  # Salir del bucle si se introduce 0
+    else:
+        numeros.append(numero)  # Agregar el número a la lista
+
+# Calcular suma y media
+if numeros:
     suma = sum(numeros)
-    media = suma / len(numeros) if numeros else 0
+    media = suma / len(numeros)
+    
+    # Mostrar resultados
+    st.write(f"Suma de los números introducidos: {suma}")
+    st.write(f"Media de los números introducidos: {media:.2f}")
+else:
+    st.write("No se han introducido números.")
 
-    return suma, media
-
-st.title("Cálculo de Suma y Media de Números")
-
-if st.button("Calcular"):
-    suma, media = calcular_suma_y_media()
-    st.write("Suma de los números introducidos:", suma)
-    st.write("Media de los números introducidos:", media)
-#Ejecutar a funcion
-if __name__ == "__main__":
-    calcular_suma_y_media()
