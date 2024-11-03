@@ -7,7 +7,6 @@ def calcular_suma_y_media():
     st.write("Introduce números uno a uno. Escribe '0' para terminar:")
     while True:
         numero = st.number_input("Introduce un número:", step=1.0, key=len(numeros))
-        
         if numero == 0:
             break
         else:
