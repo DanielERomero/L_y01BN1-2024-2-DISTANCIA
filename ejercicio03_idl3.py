@@ -30,3 +30,7 @@ if st.button("Calcular"):
     st.write("Suma de los números introducidos:", suma)
     st.write("Media de los números introducidos:", media)
 
+
+#Ejecutar a funcion
+if __name__ == "__main__":
+    calcular_suma_y_media()
