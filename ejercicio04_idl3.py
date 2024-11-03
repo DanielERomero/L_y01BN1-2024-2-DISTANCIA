@@ -17,5 +17,3 @@ if contraseña:
         st.write("Bienvenido")
     else:
         st.write("Contraseña incorrecta. Inténtalo de nuevo.")
-if __name__ == "__main__":
-    verificar_contraseña()
